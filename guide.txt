@@ -1,0 +1,17 @@
+By-default configuration is for inmemory database H2. Thus on stopping application data will clear. To make data persistent use MySql. For this uncomment Line-5 to Line-7 in application.properties file.
+
+Admin Credentials: {username: user, password: password}
+
+Implemented API's :
+
+1. Create employee : http://localhost:8080/employee/create
+
+2. Get all employees : http://localhost:8080/employee/get
+
+3. Get employee with a specific id : http://localhost:8080/employee/get/{id}
+
+4. Delete employee : http://localhost:8080/employee/delete/{id}
+
+5. Update employee details : http://localhost:8080/employee/update/{id}
+
+Logging to console is done for success and failure of operations. 
